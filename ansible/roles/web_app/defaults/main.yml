@@ -1,0 +1,9 @@
+web_app_dir: '~/web_app'
+web_app_name: 'moscow_time_ansible'
+web_app:
+    name: 'moscow_time'
+    image: moscow_time
+    tag: 1.0.0
+    registry: alexdestdev
+    external_port: 5000
+    internal_port: 5000

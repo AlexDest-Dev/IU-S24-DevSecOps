@@ -1,0 +1,7 @@
+VM:
+  hosts:
+    VM1:
+      ansible_host: 100.100.100.1
+      ansible_user: alexeyrakov
+      ansible_ssh_private_key_file: /home/alexeyrakov/.ssh/ansible-ssh
+      ansible_become: true
